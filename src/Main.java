@@ -51,22 +51,24 @@ public class Main extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblNumerador = new JLabel("fraccion");
+		JLabel lblNumerador = new JLabel("Fraccion");
 		lblNumerador.setFont(new Font("Tahoma", Font.BOLD, 11));
-		lblNumerador.setBounds(266, 146, 79, 45);
+		lblNumerador.setBounds(266, 147, 86, 56);
 		contentPane.add(lblNumerador);
 		
-		JLabel lblDenominador = new JLabel("flotante");
+		JLabel lblDenominador = new JLabel("Flotante");
 		lblDenominador.setFont(new Font("Tahoma", Font.BOLD, 11));
-		lblDenominador.setBounds(266, 213, 86, 26);
+		lblDenominador.setBounds(266, 213, 86, 32);
 		contentPane.add(lblDenominador);
 		
 		JLabel lbl1 = new JLabel("");
-		lbl1.setBounds(226, 35, 107, 39);
+		lbl1.setFont(new Font("Tahoma", Font.BOLD, 13));
+		lbl1.setBounds(213, 35, 107, 52);
 		contentPane.add(lbl1);
 		
 		JLabel lbl2 = new JLabel("");
-		lbl2.setBounds(343, 35, 105, 32);
+		lbl2.setFont(new Font("Tahoma", Font.BOLD, 13));
+		lbl2.setBounds(343, 35, 116, 52);
 		contentPane.add(lbl2);
 		
 		JButton btnNewButton = new JButton("Cargar Datos");
@@ -90,15 +92,19 @@ public class Main extends JFrame {
 		contentPane.add(btnNewButton);
 		
 		JLabel lblfraccion = new JLabel("");
-		lblfraccion.setBounds(389, 147, 46, 14);
+		lblfraccion.setFont(new Font("Tahoma", Font.BOLD, 13));
+		lblfraccion.setBounds(362, 147, 73, 44);
 		contentPane.add(lblfraccion);
 		
 		JLabel lblflotante = new JLabel("");
-		lblflotante.setBounds(389, 208, 46, 14);
+		lblflotante.setFont(new Font("Tahoma", Font.BOLD, 13));
+		lblflotante.setBounds(362, 202, 73, 36);
 		contentPane.add(lblflotante);
 		
 		
 		JButton btnNewButton_1 = new JButton("Sumar");
+		btnNewButton_1.setBackground(new Color(95, 158, 160));
+		btnNewButton_1.setFont(new Font("Tahoma", Font.BOLD, 11));
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -111,6 +117,8 @@ public class Main extends JFrame {
 		contentPane.add(btnNewButton_1);
 		
 		JButton btnRestar = new JButton("Restar");
+		btnRestar.setBackground(new Color(95, 158, 160));
+		btnRestar.setFont(new Font("Tahoma", Font.BOLD, 11));
 		btnRestar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -123,6 +131,8 @@ public class Main extends JFrame {
 		contentPane.add(btnRestar);
 		
 		JButton btnMultiplicar = new JButton("Multiplicar");
+		btnMultiplicar.setBackground(new Color(95, 158, 160));
+		btnMultiplicar.setFont(new Font("Tahoma", Font.BOLD, 11));
 		btnMultiplicar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -135,6 +145,8 @@ public class Main extends JFrame {
 		contentPane.add(btnMultiplicar);
 		
 		JButton btnDividir = new JButton("Dividir");
+		btnDividir.setBackground(new Color(95, 158, 160));
+		btnDividir.setFont(new Font("Tahoma", Font.BOLD, 11));
 		btnDividir.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
